@@ -1,0 +1,6 @@
+{
+    "board": "arduino:avr:uno",
+    "sketch": "sketch_dec13a_ledsequence\\sketch_dec13a_ledsequence.ino",
+    "port": "COM9",
+    "programmer": "Atmel-ICE (AVR)"
+}
