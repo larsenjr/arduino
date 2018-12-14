@@ -19,13 +19,13 @@ int Valgpin = 0;                                            // Tracker Valgpin s
 void setup() 
 {
     /** Sier at for valgpin = 0 så går denne opp til 4 og øker med 1 hver gang. 
-     * Setter LED pins til OUTPUT.
+     * Setter LED pins til OUTPUT med (rekkelys[valgpin], OUTPUT)
     */
     for (int Valgpin = 0; Valgpin < 4; Valgpin++)
     {
         pinMode(rekkelys[Valgpin], OUTPUT);
     }
-/** Starter en serial. Denne er overhode ikke relevant for koden, og Serial.println  brukes ikke heller,
+/** Starter en serial. Denne er ikke relevant for koden, og Serial.println  brukes ikke heller,
  * men er der hvis det er behov for feilsøking.
  */
     Serial.begin(9600);
